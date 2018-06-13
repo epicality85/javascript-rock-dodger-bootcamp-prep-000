@@ -151,6 +151,9 @@ function endGame() {
     ROCKS[i].remove();
     console.log("Rock removed");
   }
+  
+  // make sure the rocks array is empty
+  ROCKS.length = 0;
 
   // log the death note
   window.alert('YOU LOSE!');
