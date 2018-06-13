@@ -145,7 +145,7 @@ function endGame() {
   
   // remove all the rocks
   for (let i = 0; i < ROCKS.length; i++) {
-    GAME.remove(ROCKS[i]);
+    GAME.remove(ROCKS.splice(i, 1));
     console.log("Rock removed");
   }
   
